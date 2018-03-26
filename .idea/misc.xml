@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/it/projects/copy/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/tree/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/unpack/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/collect/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/get-gav/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/resolve/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/sources/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/copy-cli/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/go-offline/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/unpack-cli/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/filterunpack/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/get-artifact/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/tree-verbose/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/tree-includes/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-report/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-dep-mgt/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/build-classpath/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/resolve-plugins/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/tree-multimodule/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/copy-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/copy-from-reactor/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/list-repositories/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/unpack-custom-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/used-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/unpack-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/dependency-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-439-analyze-java8/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-571-resolve-java9/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-ignore-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/get-artifact-maven-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/get-artifact-no-transitive/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/copy-from-remote-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/resolve-plugins-with-exclude/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/unpack-from-remote-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-450-project-with-ancestor/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-dep/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-pom/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-include/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-reresolve/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-450-project-without-ancestor/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-version-range/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-580_display-manifest-automodules/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-non-transitive/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-snapshots-only/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-578_display-reason-invalid-module/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/build-classpath-output-file-and-property/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-ignore-unused-declared-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/analyze-ignore-used-undeclared-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/copy-and-unpack-with-alternate-local-repo/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/mdep-506-dependency-without-version-in-depmgt/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/mdep-27/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/mdep-50/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/mdep-61/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/mdep-66/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/mdep-67/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/copy-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/src/it-harness-poms/copy-dependencies2/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

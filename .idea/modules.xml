@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/used-dependencies/annotation/annotation.iml" filepath="$PROJECT_DIR$/src/it/projects/used-dependencies/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-a/child-a (1).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-a/child-a (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-a/child-a (2).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-a/child-a (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-b/child-b (1).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-b/child-b (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-b/child-b (2).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-b/child-b (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/child1/child1 (1).iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/child1/child1 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child1/child1 (2).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child1/child1 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child1/child1 (3).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child1/child1 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/child2/child2 (1).iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/child2/child2 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child2/child2 (2).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child2/child2 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child2/child2 (3).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child2/child2 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/copy-dependencies/copy-dependencies-it (1).iml" filepath="$PROJECT_DIR$/src/it-harness-poms/copy-dependencies/copy-dependencies-it (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/copy-dependencies2/copy-dependencies-it (2).iml" filepath="$PROJECT_DIR$/src/it-harness-poms/copy-dependencies2/copy-dependencies-it (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-439-analyze-java8/dep-analyze-java8.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-439-analyze-java8/dep-analyze-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/filterunpack/dependency.iml" filepath="$PROJECT_DIR$/src/it/projects/filterunpack/dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-506-dependency-without-version-in-depmgt/dependency-without-version-in-depmgt.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-506-dependency-without-version-in-depmgt/dependency-without-version-in-depmgt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-450-project-with-ancestor/display-ancestors-test-with-ancestor.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-450-project-with-ancestor/display-ancestors-test-with-ancestor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-450-project-without-ancestor/display-ancestors-test-without-ancestor.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-450-project-without-ancestor/display-ancestors-test-without-ancestor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/get-artifact-maven-plugin/get-artifact-maven-plugin.iml" filepath="$PROJECT_DIR$/src/it/projects/get-artifact-maven-plugin/get-artifact-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/get-artifact-no-transitive/get-artifact-no-transitive.iml" filepath="$PROJECT_DIR$/src/it/projects/get-artifact-no-transitive/get-artifact-no-transitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/get-artifact/get-artifact-transitive.iml" filepath="$PROJECT_DIR$/src/it/projects/get-artifact/get-artifact-transitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/get-gav/get-gav.iml" filepath="$PROJECT_DIR$/src/it/projects/get-gav/get-gav.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/maven-custom-ear.iml" filepath="$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/maven-custom-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/manager/maven-custom-ear-manager.iml" filepath="$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/manager/maven-custom-ear-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/plugin/maven-custom-ear-plugin.iml" filepath="$PROJECT_DIR$/src/it/projects/setup-custom-ear-lifecycle/plugin/maven-custom-ear-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-dependency-plugin.iml" filepath="$PROJECT_DIR$/maven-dependency-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/mdep-27/mdep-27-it.iml" filepath="$PROJECT_DIR$/src/it-harness-poms/mdep-27/mdep-27-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/unpack-custom-ear/mdep-300.iml" filepath="$PROJECT_DIR$/src/it/projects/unpack-custom-ear/mdep-300.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-cli/mdep-381-copy.iml" filepath="$PROJECT_DIR$/src/it/projects/copy-cli/mdep-381-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/unpack-cli/mdep-381-unpack.iml" filepath="$PROJECT_DIR$/src/it/projects/unpack-cli/mdep-381-unpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/mdep-50/mdep-50-it.iml" filepath="$PROJECT_DIR$/src/it-harness-poms/mdep-50/mdep-50-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-571-resolve-java9/mdep-571-list-java9.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-571-resolve-java9/mdep-571-list-java9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/mdep-572-unpack-tar-long-file.iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-572-unpack-tar-long-file/mdep-572-unpack-tar-long-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-578_display-reason-invalid-module/mdep-578 (1).iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-578_display-reason-invalid-module/mdep-578 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/mdep-580_display-manifest-automodules/mdep-578 (2).iml" filepath="$PROJECT_DIR$/src/it/projects/mdep-580_display-manifest-automodules/mdep-578 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/mdep-61/mdep-61-it.iml" filepath="$PROJECT_DIR$/src/it-harness-poms/mdep-61/mdep-61-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/mdep-66/mdep-66-it.iml" filepath="$PROJECT_DIR$/src/it-harness-poms/mdep-66/mdep-66-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it-harness-poms/mdep-67/mdep-67-it.iml" filepath="$PROJECT_DIR$/src/it-harness-poms/mdep-67/mdep-67-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/used-dependencies/module/module.iml" filepath="$PROJECT_DIR$/src/it/projects/used-dependencies/module/module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-dep/purge-local-repository-bad-dep.iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-dep/purge-local-repository-bad-dep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-include/purge-local-repository-include.iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-include/purge-local-repository-include.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/purge-local-repository-multi-module.iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/purge-local-repository-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/purge-local-repository-multi-module-execution.iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/purge-local-repository-multi-module-execution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-dep-mgt/test (1).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-dep-mgt/test (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-and-unpack-with-alternate-local-repo/test (10).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-and-unpack-with-alternate-local-repo/test (10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-dependencies/test (11).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-dependencies/test (11).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor/test (12).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-from-reactor/test (12).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy-from-remote-repository/test (13).iml" filepath="$PROJECT_DIR$/src/it/projects/copy-from-remote-repository/test (13).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/copy/test (14).iml" filepath="$PROJECT_DIR$/src/it/projects/copy/test (14).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/dependency-properties/test (15).iml" filepath="$PROJECT_DIR$/src/it/projects/dependency-properties/test (15).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/go-offline/test (16).iml" filepath="$PROJECT_DIR$/src/it/projects/go-offline/test (16).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/list-repositories/test (17).iml" filepath="$PROJECT_DIR$/src/it/projects/list-repositories/test (17).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-pom/test (18).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-pom/test (18).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-non-transitive/test (19).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-non-transitive/test (19).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-dependency/test (2).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-ignore-dependency/test (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-reresolve/test (20).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-reresolve/test (20).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-snapshots-only/test (21).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-snapshots-only/test (21).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-version-range/test (22).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository-version-range/test (22).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/purge-local-repository/test (23).iml" filepath="$PROJECT_DIR$/src/it/projects/purge-local-repository/test (23).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/test (24).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/test (24).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-with-exclude/test (25).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve-plugins-with-exclude/test (25).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve-plugins/test (26).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve-plugins/test (26).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/resolve/test (27).iml" filepath="$PROJECT_DIR$/src/it/projects/resolve/test (27).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/sources/test (28).iml" filepath="$PROJECT_DIR$/src/it/projects/sources/test (28).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree-includes/test (29).iml" filepath="$PROJECT_DIR$/src/it/projects/tree-includes/test (29).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-unused-declared-dependency/test (3).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-ignore-unused-declared-dependency/test (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree/test (30).iml" filepath="$PROJECT_DIR$/src/it/projects/tree/test (30).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/unpack-from-remote-repository/test (31).iml" filepath="$PROJECT_DIR$/src/it/projects/unpack-from-remote-repository/test (31).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/unpack/test (32).iml" filepath="$PROJECT_DIR$/src/it/projects/unpack/test (32).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-used-undeclared-dependency/test (4).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-ignore-used-undeclared-dependency/test (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-report/test (5).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-report/test (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze/test (6).iml" filepath="$PROJECT_DIR$/src/it/projects/analyze/test (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/build-classpath-output-file-and-property/test (7).iml" filepath="$PROJECT_DIR$/src/it/projects/build-classpath-output-file-and-property/test (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/build-classpath/test (8).iml" filepath="$PROJECT_DIR$/src/it/projects/build-classpath/test (8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/collect/test (9).iml" filepath="$PROJECT_DIR$/src/it/projects/collect/test (9).iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module1/test-module1.iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module1/test-module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module2/test-module2.iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module2/test-module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/test-parent.iml" filepath="$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/test-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree-multimodule/tree-multimodule.iml" filepath="$PROJECT_DIR$/src/it/projects/tree-multimodule/tree-multimodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree-multimodule/module-a/tree-multimodule-module-a.iml" filepath="$PROJECT_DIR$/src/it/projects/tree-multimodule/module-a/tree-multimodule-module-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree-multimodule/module-b/tree-multimodule-module-b.iml" filepath="$PROJECT_DIR$/src/it/projects/tree-multimodule/module-b/tree-multimodule-module-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/tree-verbose/tree-verbose.iml" filepath="$PROJECT_DIR$/src/it/projects/tree-verbose/tree-verbose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/unpack-dependencies/unpack-dependencies.iml" filepath="$PROJECT_DIR$/src/it/projects/unpack-dependencies/unpack-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/it/projects/used-dependencies/used-dependencies.iml" filepath="$PROJECT_DIR$/src/it/projects/used-dependencies/used-dependencies.iml" />
+    </modules>
+  </component>
+</project>

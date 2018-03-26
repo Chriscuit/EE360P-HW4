@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-dep-mgt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-dependency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-unused-declared-dependency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-ignore-used-undeclared-dependency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-multimodule-project/module2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/analyze-report" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/build-classpath" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/build-classpath-output-file-and-property" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/collect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-and-unpack-with-alternate-local-repo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-from-reactor/child-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/copy-from-remote-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/dependency-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/go-offline" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/list-repositories" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/mdep-506-dependency-without-version-in-depmgt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-dep" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-bad-pom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-include" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module-execution/child2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-multi-module/child2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-non-transitive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-reresolve" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-snapshots-only" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/purge-local-repository-version-range" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve-plugins" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-exclude-reactor/child-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/resolve-plugins-with-exclude" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/sources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree-includes" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree-multimodule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree-multimodule/module-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree-multimodule/module-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/tree-verbose" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/unpack" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/unpack-custom-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/unpack-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/unpack-from-remote-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/used-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/used-dependencies/annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/it/projects/used-dependencies/module" charset="UTF-8" />
+  </component>
+</project>

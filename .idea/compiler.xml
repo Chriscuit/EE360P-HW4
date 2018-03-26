@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="annotation" />
+        <module name="child-a (1)" />
+        <module name="child-a (2)" />
+        <module name="child1 (2)" />
+        <module name="child1 (3)" />
+        <module name="child2 (2)" />
+        <module name="child2 (3)" />
+        <module name="dep-analyze-java8" />
+        <module name="dependency" />
+        <module name="get-artifact-maven-plugin" />
+        <module name="get-artifact-no-transitive" />
+        <module name="get-artifact-transitive" />
+        <module name="get-gav" />
+        <module name="maven-custom-ear-manager" />
+        <module name="maven-custom-ear-plugin" />
+        <module name="maven-dependency-plugin" />
+        <module name="mdep-27-it" />
+        <module name="mdep-300" />
+        <module name="mdep-381-copy" />
+        <module name="mdep-381-unpack" />
+        <module name="mdep-50-it" />
+        <module name="mdep-571-list-java9" />
+        <module name="mdep-578 (1)" />
+        <module name="mdep-578 (2)" />
+        <module name="mdep-61-it" />
+        <module name="mdep-66-it" />
+        <module name="mdep-67-it" />
+        <module name="module" />
+        <module name="purge-local-repository-bad-dep" />
+        <module name="purge-local-repository-include" />
+        <module name="test (1)" />
+        <module name="test (10)" />
+        <module name="test (11)" />
+        <module name="test (13)" />
+        <module name="test (14)" />
+        <module name="test (15)" />
+        <module name="test (16)" />
+        <module name="test (17)" />
+        <module name="test (18)" />
+        <module name="test (19)" />
+        <module name="test (2)" />
+        <module name="test (20)" />
+        <module name="test (21)" />
+        <module name="test (22)" />
+        <module name="test (23)" />
+        <module name="test (25)" />
+        <module name="test (26)" />
+        <module name="test (27)" />
+        <module name="test (28)" />
+        <module name="test (29)" />
+        <module name="test (3)" />
+        <module name="test (30)" />
+        <module name="test (31)" />
+        <module name="test (32)" />
+        <module name="test (4)" />
+        <module name="test (5)" />
+        <module name="test (6)" />
+        <module name="test (7)" />
+        <module name="test (8)" />
+        <module name="test (9)" />
+        <module name="test-module1" />
+        <module name="test-module2" />
+        <module name="tree-multimodule-module-a" />
+        <module name="tree-multimodule-module-b" />
+        <module name="tree-verbose" />
+        <module name="unpack-dependencies" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotation" target="1.5" />
+      <module name="child-a (1)" target="1.5" />
+      <module name="child-a (2)" target="1.5" />
+      <module name="child-b (1)" target="1.5" />
+      <module name="child-b (2)" target="1.5" />
+      <module name="child1 (1)" target="1.5" />
+      <module name="child1 (2)" target="1.5" />
+      <module name="child1 (3)" target="1.5" />
+      <module name="child2 (1)" target="1.5" />
+      <module name="child2 (2)" target="1.5" />
+      <module name="child2 (3)" target="1.5" />
+      <module name="copy-dependencies-it (1)" target="1.5" />
+      <module name="copy-dependencies-it (2)" target="1.5" />
+      <module name="dep-analyze-java8" target="1.8" />
+      <module name="dependency" target="1.5" />
+      <module name="dependency-without-version-in-depmgt" target="1.5" />
+      <module name="display-ancestors-test-with-ancestor" target="1.5" />
+      <module name="display-ancestors-test-without-ancestor" target="1.5" />
+      <module name="get-artifact-maven-plugin" target="1.5" />
+      <module name="get-artifact-no-transitive" target="1.5" />
+      <module name="get-artifact-transitive" target="1.5" />
+      <module name="get-gav" target="1.5" />
+      <module name="maven-custom-ear" target="1.5" />
+      <module name="maven-custom-ear-manager" target="1.5" />
+      <module name="maven-custom-ear-plugin" target="1.5" />
+      <module name="maven-dependency-plugin" target="1.7" />
+      <module name="mdep-27-it" target="1.5" />
+      <module name="mdep-300" target="1.5" />
+      <module name="mdep-381-copy" target="1.5" />
+      <module name="mdep-381-unpack" target="1.5" />
+      <module name="mdep-50-it" target="1.5" />
+      <module name="mdep-571-list-java9" target="1.5" />
+      <module name="mdep-572-unpack-tar-long-file" target="1.5" />
+      <module name="mdep-578 (1)" target="1.5" />
+      <module name="mdep-578 (2)" target="1.5" />
+      <module name="mdep-61-it" target="1.5" />
+      <module name="mdep-66-it" target="1.5" />
+      <module name="mdep-67-it" target="1.5" />
+      <module name="module" target="1.5" />
+      <module name="purge-local-repository-bad-dep" target="1.5" />
+      <module name="purge-local-repository-include" target="1.5" />
+      <module name="purge-local-repository-multi-module" target="1.5" />
+      <module name="purge-local-repository-multi-module-execution" target="1.5" />
+      <module name="test (1)" target="1.5" />
+      <module name="test (10)" target="1.5" />
+      <module name="test (11)" target="1.5" />
+      <module name="test (12)" target="1.5" />
+      <module name="test (13)" target="1.5" />
+      <module name="test (14)" target="1.5" />
+      <module name="test (15)" target="1.5" />
+      <module name="test (16)" target="1.5" />
+      <module name="test (17)" target="1.5" />
+      <module name="test (18)" target="1.5" />
+      <module name="test (19)" target="1.5" />
+      <module name="test (2)" target="1.5" />
+      <module name="test (20)" target="1.5" />
+      <module name="test (21)" target="1.5" />
+      <module name="test (22)" target="1.5" />
+      <module name="test (23)" target="1.5" />
+      <module name="test (24)" target="1.5" />
+      <module name="test (25)" target="1.5" />
+      <module name="test (26)" target="1.5" />
+      <module name="test (27)" target="1.5" />
+      <module name="test (28)" target="1.5" />
+      <module name="test (29)" target="1.5" />
+      <module name="test (3)" target="1.5" />
+      <module name="test (30)" target="1.5" />
+      <module name="test (31)" target="1.5" />
+      <module name="test (32)" target="1.5" />
+      <module name="test (4)" target="1.5" />
+      <module name="test (5)" target="1.5" />
+      <module name="test (6)" target="1.5" />
+      <module name="test (7)" target="1.5" />
+      <module name="test (8)" target="1.5" />
+      <module name="test (9)" target="1.5" />
+      <module name="test-module1" target="1.5" />
+      <module name="test-module2" target="1.5" />
+      <module name="test-parent" target="1.5" />
+      <module name="tree-multimodule" target="1.5" />
+      <module name="tree-multimodule-module-a" target="1.5" />
+      <module name="tree-multimodule-module-b" target="1.5" />
+      <module name="tree-verbose" target="1.5" />
+      <module name="unpack-dependencies" target="1.5" />
+      <module name="used-dependencies" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
