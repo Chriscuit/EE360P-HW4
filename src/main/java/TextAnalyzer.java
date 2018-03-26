@@ -30,22 +30,19 @@ public class TextAnalyzer extends Configured implements Tool {
         {
             // Implementation of you mapper function
 
-            String s = "Bingley's fur is so thicc";
-            String[] valueArr = s.toString().toLowerCase().split("\\W+");
-            for (String contextWord: valueArr) {
-                HashMap<String, Integer> tracking = new HashMap<>();
+            String[] valueArr = value.toString().toLowerCase().split("\\W+");
+            for (String contextWord : valueArr) {
+                MapWritable result = new MapWritable();
                 int max = 0; // keep a track of max somewhere
-                for(String word: valueArr) {
+                for(String word : valueArr) {
 
-                    int count = tracking.containsKey(word) ? tracking.get(word) : 0;
-                    tracking.put(word, count + 1);
+                    Text wordText = new Text(word);
+                    int count = result.containsKey(wordText) ? Integer.parseInt(result.get(wordText).toString()) : 0;
+                    result.put(new Text(word), new Text(String.valueOf(count + 1)));
                     if(count+1 > max) max = count + 1;
                 }
                 Text mapConWord = new Text(contextWord);
-                MapWritable result = new MapWritable();
-                result.put(mapConWord, new Text(String.valueOf(max)));
-
-//                context.write(key, result);
+                context.write(mapConWord, result);
             }
         }
     }
