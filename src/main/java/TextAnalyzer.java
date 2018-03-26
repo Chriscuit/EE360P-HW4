@@ -36,19 +36,15 @@ public class TextAnalyzer extends Configured implements Tool {
                 HashMap<String, Integer> tracking = new HashMap<>();
                 int max = 0; // keep a track of max somewhere
                 for(String word: valueArr) {
-                    if(tracking.containsKey(word)) {
-                        // increase the value of the word by 1
 
-                    }
-                    else {
-                        // add to tracking and set value to 1
-                    }
+                    int count = tracking.containsKey(word) ? tracking.get(word) : 0;
+                    tracking.put(word, count + 1);
+                    if(count+1 > max) max = count + 1;
                 }
                 Text mapConWord = new Text(contextWord);
                 MapWritable result = new MapWritable();
-//                result.put(mapConWord, max);
-//
-//
+                result.put(mapConWord, new Text(String.valueOf(max)));
+
 //                context.write(key, result);
             }
         }
