@@ -9,14 +9,10 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.hadoop.util.hash.Hash;
 
 import java.io.IOException;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.util.*;
 
 // Do not change the signature of this class
 public class TextAnalyzer extends Configured implements Tool {
@@ -30,20 +26,35 @@ public class TextAnalyzer extends Configured implements Tool {
         {
             // Implementation of you mapper function
 
-            String[] valueArr = value.toString().toLowerCase().split("\\W+");
-            for (String contextWord : valueArr) {
-                MapWritable result = new MapWritable();
-                int max = 0; // keep a track of max somewhere
-                for(String word : valueArr) {
+            if(!value.toString().equals("")) {
 
-                    Text wordText = new Text(word);
-                    int count = result.containsKey(wordText) ? Integer.parseInt(result.get(wordText).toString()) : 0;
-                    result.put(new Text(word), new Text(String.valueOf(count + 1)));
-                    if(count+1 > max) max = count + 1;
+                HashSet<String> hashSet = new HashSet<>();
+                String[] valueArr = value.toString().toLowerCase().split("\\W+");
+
+                for (String contextWord : valueArr) {
+                    if(!contextWord.equals("") && !hashSet.contains(contextWord)) {
+
+                        hashSet.add(contextWord);
+                        MapWritable result = new MapWritable();
+                        for (String word : valueArr) {
+                            if (!word.equals("")) {
+                                Text wordText = new Text(word);
+                                int count = result.containsKey(wordText) ? Integer.parseInt(result.get(wordText).toString()) : 0;
+                                result.put(wordText, new Text(String.valueOf(count + 1)));
+                            }
+                        }
+                        Text mapConWord = new Text(contextWord);
+
+                        if(Integer.parseInt(result.get(mapConWord).toString()) == 1) {
+                            result.remove(mapConWord);
+                        } else {
+                            result.put(mapConWord, new Text(String.valueOf(Integer.parseInt(result.get(mapConWord).toString()) - 1)));
+                        }
+                        context.write(mapConWord, result);
+                    }
                 }
-                Text mapConWord = new Text(contextWord);
-                context.write(mapConWord, result);
             }
+
         }
     }
 
@@ -65,20 +76,48 @@ public class TextAnalyzer extends Configured implements Tool {
         public void reduce(Text key, Iterable<MapWritable> queryTuples, Context context)
             throws IOException, InterruptedException
         {
-            Map<String, Integer> map = new TreeMap<>();
+            Map<Writable, Integer> map = new TreeMap<>();
+
+            int max = 0;
+            String top = "";
+            int totalValue;
+
+            for(MapWritable oneMap : queryTuples) {
+                for(Writable word : oneMap.keySet()) {
+
+                    int count = map.containsKey(word) ? Integer.parseInt(map.get(word).toString()) : 0;
+                    totalValue = count + Integer.parseInt(String.valueOf(oneMap.get(word)));
+                    map.put(word, totalValue);
+                    if(totalValue > max) {
+                        max = totalValue;
+                        if(word.toString().compareTo(top) > 0) {
+                            top = word.toString();
+                        }
+                    }
+                }
+            }
 
             // Implementation of you reducer function
 
             // Write out the results; you may change the following example
             // code to fit with your reducer function.
             //   Write out the current context key
-            context.write(key, emptyText);
             //   Write out query words and their count
-            for(String queryWord: map.keySet()){
-                String count = map.get(queryWord).toString() + ">";
-                Text queryWordText = new Text();
-                queryWordText.set("<" + queryWord + ",");
-                context.write(queryWordText, new Text(count));
+
+            context.write(key, new Text(String.valueOf(max)));
+
+            String topOutput = String.valueOf(max) + ">";
+            Text topQueryWord = new Text("<" + top + ",");
+            context.write(topQueryWord, new Text(topOutput));
+
+            for(Writable queryWord: map.keySet()){
+
+                if(!queryWord.toString().equals(top)) {
+                    String count = map.get(queryWord).toString() + ">";
+                    Text queryWordText = new Text();
+                    queryWordText.set("<" + queryWord + ",");
+                    context.write(queryWordText, new Text(count));
+                }
             }
             //   Empty line for ending the current context key
             context.write(emptyText, emptyText);
@@ -89,7 +128,7 @@ public class TextAnalyzer extends Configured implements Tool {
         Configuration conf = this.getConf();
 
         // Create job
-        Job job = new Job(conf, "EID1_EID2"); // Replace with your EIDs
+        Job job = new Job(conf, "crg2957_sik269"); // Replace with your EIDs
         job.setJarByClass(TextAnalyzer.class);
 
         // Setup MapReduce job
@@ -103,8 +142,8 @@ public class TextAnalyzer extends Configured implements Tool {
         job.setOutputValueClass(Text.class);
         //   If your mapper and combiner's  output types are different from Text.class,
         //   then uncomment the following lines to specify the data types.
-        //job.setMapOutputKeyClass(?.class);
-        //job.setMapOutputValueClass(?.class);
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(MapWritable.class);
 
         // Input
         FileInputFormat.addInputPath(job, new Path(args[0]));
